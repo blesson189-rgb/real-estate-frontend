@@ -18,7 +18,7 @@ export default function SliderManager() {
     // Fetch all slider images
     const loadSliders = async () => {
         try {
-            const res = await axios.get(`${API}api/slider`);
+            const res = await axios.get(`${API}/api/slider`);
             setSliders(res.data);
         } catch (err) {
             console.error("Error loading sliders:", err);

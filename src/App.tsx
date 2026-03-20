@@ -11,6 +11,8 @@ import ProjectsManager from "./pages/ProjectManager";
 import TrustedManager from "./pages/TrustedManager";
 import EnquiriesPage from "./pages/EnquiriesPage";
 import ContactManager from "./pages/ContactManager";
+import About from "./pages/About";
+import AboutManager from "./pages/AboutManager";
 
 export default function App() {
   return (
@@ -21,6 +23,8 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+
 
         {/* ADMIN */}
         <Route path="/admin" element={<AdminLogin />} />
@@ -30,6 +34,9 @@ export default function App() {
         <Route path="/admin/trusted" element={<TrustedManager />} />
         <Route path="/admin/enquiries" element={<EnquiriesPage />} />
         <Route path="/admin/contact" element={<ContactManager />} />
+        <Route path="/admin/about" element={<AboutManager />} />
+
+
 
 
       </Routes>

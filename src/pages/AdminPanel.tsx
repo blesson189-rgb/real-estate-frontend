@@ -37,6 +37,7 @@ export default function AdminPanel() {
         <li><Link to="/admin/trusted">Manage Trusted Logos</Link></li>
         <li><Link to="/admin/enquiries">View Enquiries</Link></li>
         <li><Link to="/admin/contact">Manage Contact Info</Link></li>
+        <li><Link to="/admin/about">Manage About Us</Link></li>
       </ul>
     </div>
   );
